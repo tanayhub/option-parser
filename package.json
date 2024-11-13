@@ -1,0 +1,33 @@
+{
+    "name": "@tanayhub/option-parser",
+    "version": "1.0.0",
+    "description": "parse options based on given definitions",
+    "main": "build/index.js",
+    "types": "build/index.d.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm install && tsc",
+        "prestart": "npm run build",
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tanayhub/option-parser.git"
+    },
+    "keywords": [
+        "option",
+        "parser",
+        "cli",
+        "arguments"
+    ],
+    "author": "tanayhub",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/tanayhub/option-parser/issues"
+    },
+    "homepage": "https://github.com/tanayhub/option-parser#readme",
+    "devDependencies": {
+        "@types/node": "^22.9.0",
+        "typescript": "^5.6.3"
+    }
+}
